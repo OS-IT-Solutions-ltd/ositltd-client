@@ -11,7 +11,10 @@ module.exports = {
       xl: "1270px",
     },
     container: {
-      center: true
+      center: true,
+      screens: {
+        desktop: "1140px",
+      }
     },
     extend: {},
     fontFamily: {

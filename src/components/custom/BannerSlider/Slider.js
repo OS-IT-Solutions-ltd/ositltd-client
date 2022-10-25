@@ -2,7 +2,7 @@ import { BiRightArrowAlt } from 'react-icons/bi';
 
 const Slider = ({title, description, image, btn, btnLink}) => {
   return (
-      <div className="bg-gradient-to-r from-[#684EFB]  to-[#5A00DD] py-6 px-6 lg:px-0">
+      <div className="bg-gradient-to-r from-[#684EFB]  to-[#5A00DD] py-8 px-6 lg:px-0">
           <div className="container">
               <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-0 gap-7 justify-between items-center">
                   <div className='space-y-5'>
