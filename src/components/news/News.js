@@ -3,8 +3,8 @@ import blogImg from '../../assets/blog/blog.jpg';
 
 const News = () => {
   return (
-    <div className="rounded-lg cursor-pointer shadow">
-        <img src={blogImg} alt="" className='rounded-t-lg w-full' />
+    <div className="rounded-lg cursor-pointer shadow group">
+          <img src={blogImg} alt="" className='rounded-t-lg w-full' />
         <div className='bg-white p-5 space-y-4'>
             <span className='bg-orange-400 text-sm text-white py-1 px-4 rounded-xl'>Design</span>
             <h2 className='text-xl text-gray-800 font-semibold'>Do you really understand the concept of product value?</h2>
